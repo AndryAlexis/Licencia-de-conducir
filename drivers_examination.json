@@ -1,0 +1,366 @@
+[
+    {
+        "question" : "Si una intersección tiene una señal de pare y un cruce peatonal pero no tiene línea de pare, ¿usted dónde debe detenerse?.",
+        "anwers" : {
+            "short" : "Antes del cruce peatonal.",
+            "long" : "En una señal de alto, usted debe detenerse antes de la línea de parada, si hay una. Si no hay línea de parada, debe detenerse antes de ingresar al paso de peatones. Si no hay ni una lína de parada ni un paso de peatones, debe detenerse antes de ingresar a la intersección."
+        }
+    },
+    {
+        "question" : "¿Cuál es la acción apropiada que debe realizar cuando se está acercando a un cruce de vía de tren que no tiene señales (como luces o barrera de tren)?",
+        "answers" : {
+            "short" : "Baje la velocidad y prepárese para detenerse.",
+            "long" : "Al acercarse a cruces de ferrocarril sin marca, disminuya la velocidad y prepárese para detenerse. Antes de cruzar, asegúrese de que no viene un tren. Si ve venir un tren, espere hasta que pase, y luego cruce las vías cuando sea seguro hacerlo." 
+        }
+    },
+    {
+        "question" : "Está esperando en la intersección para dar la vuelta a la izquierda. ¿Qué debe hacer?",
+        "answers" : {
+            "short" : "Encender la luz direccional y dejar las ruedas rectas.",
+            "long" : "Usted siempre debe hacer una señal antes de cruzar o cambiar de carril. Debe mantener las llantas rectas mientras espera para cruzar a la izquierda. Esto garantiza que, si otro vehículo lo golpea desde atrás, usted no será empujado hacia los vehículos que circulan en sentido contrario."
+        }
+    },
+    {
+        "question" : "El brazo y la mano izquierda del conductor están extendidos hacia abajo. ¿Esta señal con la mano qué significa?",
+        "answers" : {
+            "short" : "Detenerse.",
+            "long" : "Esta señal de mano indica que el conductor planea detenerse."
+        }
+    },
+    {
+        "question" : "El brazo y la mano izquierda del conductor están extendidos hacia arriba. ¿Esta señal con la mano qué significa?",
+        "answers" : {
+            "short" : "Dar vuelta a la derecha",
+            "long" : "Esta señal de mano indica que el conductor plena cruzar a la derecha."
+        }
+    },
+    {
+        "question" : "¿Cuánto tiene el derecho de paso?",
+        "answers" : {
+            "short" : "Cuando ya está en la rotonda.",
+            "long" : "Un conductor que ingresa en una rotonda debe ceder derecho de paso a los conductor que ya están en la misma. Los vehículos que ingresan a una carretera desde una entrada deben ceder el paso a los peatones y a los vehículos que ya están en la carretera. Al dejar un espacio de estacionamiento, usted debe ceder el paso al tránsito que se aproxima."
+        }
+    },
+    {
+        "question" : "Si quiere girar  a la derecha, ¿cómo debe estar el vehículo?.",
+        "answers" : {
+            "short" : "Cerca al lado derecha de la calle.",
+            "long" : "Mientras se prepara para cruzar a la derecha, usted debe llegar lo más lejos posible al lado derecho de la calzada."
+        }
+    },
+    {
+        "question" : "Usted quiere girar a la izquierda en una intersección. La luz está en verde pero hay bastantes vehículos en su dirección. ¿Qué debe hacer?",
+        "answers" : {
+            "short" : "Esperar en el centro de la intersección a que haya menos tráfico.",
+            "long" : "Al girar a la izquierda donde hay tránsito aproximándose, usted debe esperar a que pasen esos vehículos antes de girar. Usted puede ingresar a la intersección para prepararse para cruzar a la izquierda si la luz está verde y ningún otro vehículo delante de usted girar a la izquierda."
+        }
+    },
+    {
+        "question" : "Usted quiere girar a la derecha en la siguiente intersección. ¿Cuándo deberá empezar a usar la luz direccional?.",
+        "answers" : {
+            "short" : "Al menos a 100 pies antes de girar.",
+            "long" : "La ley exige que usted señale cuando realice un cruce o un cambio de carril con las luces de cruce o señales de mano a al menos 100 pies antes del cruce o cambio."
+        }
+    },
+    {
+        "question" : "El vehículo detrás de usted quiere adelantarlo. ¿Qué debe hacer?",
+        "answers" : {
+            "short" : "Bajar ligeramente la velocidad y quedarse en su carril.",
+            "long" : "Si otro vehículo pasa por la izquierda, reduzca la velocidad ligeramente y manténgase a la derecha. Cuando el vehículo haya pasado con seguridad y esté delante de usted, continúe con su velocidad normal."
+        }
+    },
+    {
+        "question" : "En general, ¿cuándo debe adelantar a otros vehículos que van en el mismo sentido que usted?.",
+        "answers" : {
+            "short" : "Por la izquierda.",
+            "long" : "En general, el carril de la izquierda se usa para pasar."
+        }
+    },
+    {
+        "question" : "Una señal de 'No detenerse' significa que, al menos que lo diga un policía, ¿cuándo puede detenerse?",
+        "answers" : {
+            "short" : "Para evitar conflicto con otros vehículos.",
+            "long" : "Una señal de 'no pare' significa que puede detenerse solo para obedecer una señal de tránsito, una señal o un oficial, o para evitar conflictos con otros vehículos."
+        }
+    },
+    {
+        "question" : "¿Dónde nunca puede estacionar?",
+        "answers" : {
+            "short" : "En un cruce peatonal.",
+            "long" : "Es ilegal estacionar, detenerse o pararse en un paso de peatones. Se prohíbe estacionar a 15 pies de una boca de incendios."
+        }
+    },
+    {
+        "question" : "Antes de salir de su espacio de estacionamiento que es paralelo a la acera, ¿qué debe hacer?",
+        "answers" : {
+            "short" : "Verificar, girando la cabeza, si hay vehículos.",
+            "long" : "Antes de dejar un puesto de estacionamiento para reintegrarse al tránsito, usted debe girar la cabeza para mirar por encima del hombro derecho y verificar a través de la ventana trasera si hay peatones, ciclistas, motociclistas y otros vehículos que puedan convertirse en un peligro."
+        }
+    },
+    {
+        "question" : "En una autopista del Estado de Nueva York donde hay límite de velocidad, ¿cuánto es lo más rápido que puede manejar de forma legal?.",
+        "answers" : {
+            "short" : "55 mph.",
+            "long" : "Si no se señala ningún límite, el límite de velocidad es de 55 mph."
+        }
+    },
+    {
+        "question" : "En viajes largos, ¿cómo puede evitar la somnolencia?.",
+        "answers" : {
+           "short" : "Deteníendose a intervalos regulares y descansando.",
+           "long" : "Para prevenir la somnolencia, usted debe programar paradas regulares cada 100 millas o 2 horas." 
+        }
+    },
+    {
+        "question" : "¿Qué le hace el alcohol a sus habilidades de manejo y a su juicio?.",
+        "answers" : {
+            "short" : "Afecta negativamente tanto a las habilidades de manejo como al juicio.",
+            "long" : "El alcohol afecta negativamente muchas habilidades que usted necesita para una conducción segura, incluido el tiempo de reacción y la capacidad de ver con claridad. Usted también puede cambiar su criterio sobre la velocidad y las distancias, lo inhibirá menos y lo hará más propenso a correr riesgos."
+        }
+    },
+    {
+        "question" : "¿Qué le ocurre a su licencia de manejo si se niega a hacer una prueba química (aliento o de sangre)?.",
+        "answers" : {
+            "short" : "Retirarán su licencia de manejo.",
+            "long" : "Nueva York tiene una ley de 'Consentimiento Implícito', lo que significa que al conducir en el estado, se considera que usted ha otorgado su consentimiento para hacer una prueba química si lo arrestan por una infracción relacionada con el alcohol o las drogas. Si se niega a tomar el examen, su licencia será suspendida cuando sea procesado en la corte. Si una audiencia del DMV confirma que usted rechazó someterse a la prueba, su licencia de conducir será revocada incluso si no es declarado culpable del cargo original."
+        }
+    },
+    {
+        "question" : "¿Cuál es la única forma efectiva de reducir el nivel de alcohol en sangre (BAC)?.",
+        "answers" : {
+            "short" : "Dándole tiempo a su cuerpo para deshacerse del alcohol.",
+            "long" : "El único méotodo para reducir efectivamente su BAC es no beber durante un período de tiempo. El café, el ejercicio y las duchas frías no pueden reducir su BAC y los efectos del acohol. Estas medidas pueden ayudarlo a permanecer despierto, pero no pueden cambiar su BAC, ni hacer que esté sobrio."
+        }
+    },
+    {
+        "question" : "Un conductor que está tomando un medicamento de venta libre, ¿qué debe hacer?.",
+        "answers" : {
+            "short" : "Leer la etiqueta del medicamento antes de manejar.",
+            "long" : "Muchos medicamentos de venta libre pueden afectar a su capacidad para conducir de forma segura. Si toma medicamentos, incluso un remedio contra el resfriado o la alergia que no son prescritos, consulte la etiqueta en busca de advertencias sobre sus efectos. Si no está seguro, pregúntele a su médico o farmacéutico acerca de conducir mientras toma el medicamento."
+        }
+    },
+    {
+        "question" : "En promedio, ¿aproximádamente cuánto tiempo tarda el cuerpo humano en eliminar 12 onzar de cerveza?.",
+        "answers" : {
+            "short" : "1 hora.",
+            "long" : "En promedio, al cuerpo le toma alrededor de una hora eliminar el contenido de alcohol de 12 onzas de cerveza o un cóctel de vino, 5 onzas de vino o 1.5 onzas de licor fuerte. Para un hombre de 150 libras, un de estas bebidas elevará su contenido de alcohol en la sangre (BAC) a aproximádamente 0.02%. La eliminación del alcohol del cuerpo puede ser más lenta en las mujeres, lo que cause un BAC más alto durante un período de tiempo más prolongado."
+        }
+    },
+    {
+        "question" : "En el estado de Nueva York, ¿qué BAC (nivel de alcohol en sangre) es evidencia de una intoxicación?.",
+        "answers" : {
+            "short" : "0.08",
+            "long" : "Bajo la ley del estado de Nueva York, un BAC de 0.08% o más es evidencia de intoxicación. Un BAC de 0.05% o más es evidencia legal de afectación."
+        }
+    },
+    {
+        "question" : "¿Qué efecto tiene beber alcohol y tomar medicamento de prescripción o de venta libre?",
+        "answers" : {
+            "short" : "La combinación puede multiplicar los efectos del alcohol.",
+            "long" : "Mezclar alcohol y otras drogas puede potenciar el efecto de ambos. Por ejemplo, tomar una bebida cuando también está tomando un medicamento para el resfriado puede afectarlo tanto como varios bebidas."
+        }
+    },
+    {
+        "question" : "Usted quiere salir en reversa de su acceso privado. Ve niños jugando cerca. Antes de empezar a mover el vehículo, ¿qué debe hacer?.",
+        "answers" : {
+            "short" : "Caminar hasta detrás del vehículo para asegurarse de que no hay nadie.",
+            "long" : "Cuando usted retroceda un vehículo, mire por el parabrisas posterior si hay peatones. No dependa solamente de los espejos cuando haya niños cerca. Cuando salga o entre en retroceso de una calzada, salga del vehículo y verifique detrás del mismo."
+        }
+    },
+    {
+        "question" : "¿Qué contiene la misma cantidad de alcohol que un vaso de vino de 5 onzas?.",
+        "answers" : {
+            "short" : "Una lata de cerveza de 12 onzas.",
+            "long" : "Una vaso de vino de 5 onzar (12% de alcohol), una lata de 12 onzas o una botella de cerveza, y 1.5 onzas de licos de 86 grados contienen aproximádamente la misma cantidad de alcohol. La capacidad de conducir de una persona se verá igualmente afectada por la misma cantidad de alcohol, sin importat el tipo de bebida alcohólica que tomó."
+        }
+    },
+    {
+        "question" : "En el estado de Nueva York, ¿quién o quienes deben usar el cinturón de seguridad en los vehículos en movimiento?.",
+        "answers" : {
+            "short" : "Los conductores y pasajeros.",
+            "long" : "En el estado de Nueva York, todos los adultos en un vehículo de motor en movimiento deben usar cinturones de seguridad. Todos los niños en vehículos en movimiento deben sujetarse adecuadamente con cinturoes de seguridad, asientos elevados o sistemas de retención infantil. A los conductores o pasajeros se les pueden cobrar multias de hasta $100 por no usar correctamente los cinturones de seguridad."
+        }
+    },
+    {
+        "question" : "¿Cuál es la altura mínima que debe tener un pasajero que se encuentra en un vehículo en movimiento y es menor de 8 años?.",
+        "answers" : {
+            "short" : "4 pies, 9 pulgadas.",
+            "long" : "La ley de Nueva York exige que los niños menores de 8 años y más pequeños que 4 pies, 9 pulgadas de alto, o que pesen menos de 100 libras, estén sentados en un asiento de seguridad para niños aprobado por el gobierno. No se les debe permitir usar un cinturón de seguridad hasta que se le pueda ajustar correctamente."
+        }
+    },
+    {
+        "question" : "¿De cuánto son las multas en una zona de construcción?.",
+        "answers" : {
+            "short" : "Dobles.",
+            "long" : "Las multas por infracciones de tránsito en movmiento se duplican en las zonas de construcción o mantenimiento de carreteresa donde hay trabajadores. Al conducir en una zona de construcción, usted debe conducir con cuidado y seguir todas las instrucciones proporcionadas por las señales, carteles, oficiales y banderines o señaladores."
+        }
+    },
+    {
+        "question" : "Cuando está estacionado, ¿cuál es la distancia máxima que debe estar del bordillo?.",
+        "answers" : {
+            "short" : "Un pie.",
+            "long" : "Cuando esté estacionado en paralelo, su vehículo no debe estar a más de un pie del bordillo. Asegúrese que los vehículos circundantes tengan espacio para estacionarse."
+        }
+    },
+    {
+        "question" : "Si usted ve una línea de borde que se inclina hacia adentro en una carretera, ¿qué significa?.",
+        "answers" : {
+            "short" : "La vía se está estrechando.",
+            "long" : "Si usted ve una línea de orde que se inclina hacia adentro en una carretera, signica que la carreterea que viene por delante se está estrechando. Asegúrese de entrar al tráfico de forma segura."
+        }
+    },
+    {
+        "question" : "¿Se pueden enviar mensajes de texto mientras se conduce?.",
+        "answers" : {
+            "short" : "No, es ilegal.",
+            "long" : "En el estado de Nueva York, a los conductores no se les permite usar un dispositivo de telecomunicaciones para escribir o leer un mensaje de texto o correo electrónico mientras conducen un vehículo. Enviar mensajes de texto al conducir puede causar una multa de hasta $450."
+        }
+    },
+    {
+        "question" : "¿Se puede hablar o escuchar un teléfono celular mientras conduce?.",
+        "answers" : {
+            "short" : "No, es ilegal.",
+            "long" : "En Nueva York es ilegal hablar o escuchar un teléfono celular mientras conduce. Usted puede usar un teléfono de mano para iniciar o finalizar una llamada, pero otros usos causarán una multa y puntos en contra de su licencia."
+        }
+    },
+    {
+        "question" : "Al conducir detrás de otro vehículo en las condiciones ideales de construcción, ¿qué regla debe seguir?.",
+        "answers" : {
+            "short" : "Los 2 segundos.",
+            "long" : "En condiciones de conducción ideales, usted debe mantener una distancia de seguimiento de al menos 2 segundos. Si las carreteras están resbaladizas, su distancia de seguimiento debería aumentar a por lo menos 3 o 4 segundos. Si las conduciones son menos que ideales, usted debe aumentar su distancia de seguimiento."
+        }
+    },
+    {
+        "question" : "Al salir de una autopista, ¿qué debe hacer?.",
+        "answers" : {
+            "short" : "Mirar el límite de velocidad señalado por la carretera que está ingresando.",
+            "long" : "Al salir de una autopista, es importante estar alerta ante otros tráficos que se mueven cerca. Asegúrese de mirar el nuevo límite de velocidad señalado y verificar su velocímetro. Es poco probable que salga a una carretera con un límite de velocidad tan alto como el que se encuentra en la autopista."
+        }
+    },
+    {
+        "question" : "Al frenar en superficies resbaladizas, ¿cuándo debe usar los frenos?.",
+        "answers" : {
+            "short" : "Antes de lo habitual.",
+            "long" : "Cuando frene en superficies resbaladizas, como carreteras cubiertas de nieve o hielo, usted debe aplicar los frenos de manera constante y lenta para evitar bloquearlos. Aplique los frenos antes de lo que haría en una superfície diferente para permitirle a su vehículo tener un tiempo adicional para reducir la velocidad de manera segura."
+        }
+    },
+    {
+        "question" : "Si usted necesita pasar detrás de un tractor-remolque que está retrocediendo, ¿qué debe estar?",
+        "answers" : {
+            "short" : "Esperar a que el camión deje de retroceder",
+            "long" : "Los vehículos grandes tienen grandes puntos ciegos en la parte trasera. Si usted está detrás de un vehículo grande, es muy probable que el conductor no sepa que usted está allí. por esto, si necesita pasar detrás de un vehículo grande que está retrocediendo, siempre la opción más segura es esperar a que el camión termine la maniobra de reversa antes de pasar."
+        }
+    },
+    {
+        "question" : "¿Qué ocasione que siga de cerca a otros conductores?.",
+        "answers" : {
+            "short" : "Puede frustrar y enojar a otros conductores.",
+            "long" : "Conducir muy de cerca a otro vehículo puede causar una conducción agresiva, y por consiguiente debe evitarse."
+        }
+    },
+    {
+        "question" : "¿Conducir bajo la influencia de cualquier medicamente que afecte a su capacidad de manejar está permitido?.",
+        "answers" : {
+            "short" : "Bajo ninguna circunstancia.",
+            "long" : "Es ilegal conducir bajo los efectos de cualquier sustancia que afecten su capacidad de manejar de forma segura. Esto incluye el alcohol, medicamentos con o sin receta médica y drogas ilegales."
+        }
+    },
+    {
+        "question" : "¿Qué significa una línea amarilla continua junto a una línea amarilla discontinua para un vehículo?.",
+        "answers" : {
+            "short" : "Que el que está del lado de la línea discontinua puede adelantarlo.",
+            "long" : "Las líneas amarillas separan los carriles de tránsito que se mueven en direcciones diferentes. Una línea amarilla discontinua al lado de su carril de circulación significa que puede atravesarla."
+        }
+    },
+    {
+        "question" : "Cuando estacione cuesta arriba en una calle de doble sentido sin acera. ¿Hacía qué lado deben de estar sus ruedas delanteras?.",
+        "answers" : {
+            "short" : "A la derecha hacia la orilla de la calle.",
+            "long" : "Cuando estacione cuesta arriba o cuesta abajo en una vía que no tiene acera, debe girar el vehículo para que se aleje del centro de la carretera si los frenos fallan."
+        }
+    },
+    {
+        "question" : "Está involucrado en un pequeño choque en una intersección. No hay heridos y hay un daño leve a los vehículos. ¿Qué debe hacer?.",
+        "answers" : {
+            "short" : "Si es posible, sacar el vehículo del carril de tráfico.",
+            "long" : "Después de un choque, si nadie ha resultado herido o fallecido, usted debe sacar un vehículo del carril de circulación."
+        }
+    },
+    {
+        "question" : "Si no hay paso de peatones y ve a un peatón cruzando por su carril, ¿qué debería hacer?.",
+        "answers" : {
+            "short" : "Detenerse y dejar que el peatón cruce.",
+            "long" : "Los conductores siempre deben ceder el paso a los peatones, aunque no haya un cruce de peatones que esté marcado."
+        }
+    },
+    {
+        "question" : "Va manejando en la autopista detrás de un camión grande, ¿cómo debería manejar?.",
+        "answers" : {
+            "short" : "Más lejos del camión, comparado con los vehículos de pasajeros.",
+            "long" : "Es necesario mantenerse más lejos detrás de los camiones grande porque los camiones tienen puntos ciegos grandes."
+        }
+    },
+    {
+        "question" : "¿Cuándo debe ceder el paso a un peatón que tenga un bastón blanco o un perro guía?",
+        "answers" : {
+            "short" : "Siempre.",
+            "long" : "A los peatones que utilicen perros guía o bastones blancos (con o sin punta roja) siempre debe cedérseles el paso."
+        }
+    },
+    {
+        "question" : "Para ver vehículos en su punto ciego, ¿dónde debe mirar?.",
+        "answers" : {
+            "short" : "Sobres sus hombros.",
+            "long" : "Por definición, los puntos ciegos son áreas que no pueden ser vistas usando los espejos. Por lo tanto, usted debe mirar por encima de sus hombros para revisarlas."
+        }
+    },
+    {
+        "question" : "Está en la autopista y el tráfico está fluyendo hacia su carril. ¿Qué debería hacer?.",
+        "answers" : {
+            "short" : "Si le es posible, dejar espacio para el tráfico entrante.",
+            "long" : "Cuando el tránsito lo permita, usted debe dejar espacio para permitir a los vehículos incorporarse a su carril."
+        }
+    },
+    {
+        "question" : "¿Para qué es necesario el espacio adicional en frente de un camión grande?.",
+        "answers" : {
+            "short" : "Para que el conductor del camión pueda detener el vehículo",
+            "long" : "Como son más grandes, los camiones tardan más en detenerse que un auto viajando a la misma velocidad. Los otros conductores no deben colocarse frente a un camión y después disminuir la velocidad o detenerse."
+        }
+    },
+    {
+        "question" : "Cuando adelante a otro vehículo, ¿cuándo es seguro regresar a su carril?.",
+        "answers" : {
+            "short" : "Cuando ve las luces delanteras del vehículo en su espejo retrovisor.",
+            "long" : "Antes de volver a su carril original, después de adelantar, usted debe estar seguro de que no está peligrosamente cerca del vehículo que acaba de adelantar. Cuando pueda ver ambos faros del vehículo en su espejo retrovisor, puede tener suficient espacio para volver al carril."
+        }
+    },
+    {
+        "question" : "Si ve señales de construcción color naranja y cono en una autopista, ¿qué debe hacer?.",
+        "answers" : {
+            "short" : "Prepararse para encontrar trabajadores y equipo más adelante.",
+            "long" : "Cuando entre a una zona de trabajo, las señales y los paneles de mensajes le avisarán que más adelante hay trabajadores, equipo de movimiento lento, y/o carriles cerrados. Usted debe reducir la velocidad y estar preparado para ralentizar o detenerse."
+        }
+    },
+    {
+        "question" : "Cuando está intentando entrar en la autopista, ¿cómo debe conducir?.",
+        "answers" : {
+            "short" : "A la misma o casi la misma velocidad que el tráfico en la autopista.",
+            "long" : "Cuando se incorpore a una autopista, usted debe entrar a la velocidad del tránsito o cerca de ella."
+        }
+    },
+    {
+        "question" : "Hay un camión grande delante de usted y está girando a la derecha a una calle con 2 carriles para cada dirección. ¿Qué puede que necesite el camión?.",
+        "answers" : {
+            "short" : "Puede que necesite hacer un giro amplio para completar el giro a la derecha.",
+            "long" : "Cuando un vehículo hace un giro, las llantas traseras siguen una trayectoria más corta que las delanteras. A mayor longitud del vehículo, mayor será la diferencia entre las llantas delanteras y las traseras. Por lo tanto, los camiones largos frecuentemente tienen que abrirse mucho para completar un giro a la izquierda."
+        }
+    },
+    {
+        "question" : "52",
+        "answers" : {
+            "short" : "",
+            "long" : ""
+        }
+    }
+]

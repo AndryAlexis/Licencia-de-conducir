@@ -1,29 +1,29 @@
-from openai import OpenAI
-client = OpenAI(api_key='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')
- 
-try:
-    question = 'Si una intersección tiene una señal de pare y un cruce peatonal pero no tiene una línea de pare, ¿usted dónde debe detenerse?.'
-    short_answer= 'Antes del cruce peatonal.'
-    long_answer = 'En una señal de alto, usted debe detenerse antes de la línea de parada, si hay una. Si no hay línea de parada, debe detenerse antes de ingresar al paso de peatones. Si no hay línea de parada, debe detenerse antes de ingresar al paso de peatones. Si no hay ni una línea de parada ni un paso de peatones, debe detenerse antes de ingresar a la intersección.'
+from app.routes import routes
+import flet as ft
 
-    format = '{"question":"AQUÍ LA PREGUNTA","answers":[{"text":"AQUÍ UNA RESPUESTA","isCorrect":"AQUÍ SI ES CORRECTA O NO EN BOOLEAN"} ...Otras 3 respuestas más]}'
+from app.ai.trainedai import DriversExamination
 
-    message = f"""
-        PREGUNTA: {question} 
-        RESPUESTA CORTA: {short_answer}
-        RESPUESTA LARGA: {long_answer}
+KEY = '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'
+question = 'Cuando está intentando entrar a la autopista, debe conducir:'
+short_answer = 'A la misma o casi la misma velocidad que el tráfico en la autopista.'
+long_answer = 'Cuando se incorpore a una autopista, usted debe entrar a la velocidad del tránsito, o cerca de ella.'
 
-        La pregunta y las respuestas las replanteas de diversas formas que sea diferente pero sin llegar a perder su significado. Las preguntas y respuestas pueden ser en primera, segundo o tercera persona. La respuesta serán basadas en los 2 tipos de respuesta Tanto la pregunta como las respuestas deben variar en sus longitudes, sobre todo las respuestas. Crea 3 respuestas incorrectas basándote en la correcta. Todo formato json así: {format}
-    """
+trained_ai = DriversExamination(api_key=KEY)
+response = trained_ai.send_message(question=question,
+                                   short_answer=short_answer,
+                                   long_answer=long_answer)
 
-    completion = client.chat.completions.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {"role": "user", "content": message}
-        ]
-    )
+if (response is None):
+    print('ALGO HA PASAO')
+    exit()
 
-    print(completion.choices[0].message.content)
+print(response)
+# print(response['question'], end='\n\n')
+# print('\t',response['answers'][0]['text'], response['answers'][0]['isCorrect'])
+# print('\t',response['answers'][1]['text'], response['answers'][1]['isCorrect'])
+# print('\t',response['answers'][2]['text'], response['answers'][2]['isCorrect'])
+# print('\t',response['answers'][3]['text'], response['answers'][3]['isCorrect'])
+# print('\n')
 
-except Exception as e:
-    print('HE PETAO: ', e)
+# if __name__ == '__main__':
+#     ft.app(target=routes, view=ft.AppView.WEB_BROWSER)
