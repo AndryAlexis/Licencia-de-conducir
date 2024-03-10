@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+            padding: 0;
+        }
+
+        body {
+            display: grid;
+            place-items: center;
+
+            gap: 2rem;
+
+            height: 100vh;
+
+            padding: 3vw;
+
+            font-family: sans-serif;
+
+            background-color: rgb(240, 240, 240);
+        }
+
+        main {
+            width: clamp(250px, 100%, 700px);
+        }
+        
+        article {
+            display: grid;
+            gap: 2rem;
+
+            font-size: 1rem;
+        }
+
+        ol {
+            display: grid;
+            gap: .5rem;
+
+            list-style-type: none;
+        }
+
+        li {
+            display: flex;
+        }
+
+        label {
+            padding: 1rem 1.5rem;
+
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgb(1, 88, 187) 35%, rgb(0, 162, 255) 100%);
+            border-radius: .5rem;
+
+            color: white;
+            font-size: 1.2em;
+
+            cursor: pointer;
+
+            transition: filter 300ms ease;
+
+            flex: 1;
+        }
+
+        label:hover {
+            filter: hue-rotate(40deg);
+        }
+
+        input:checked + label[data-value="false"] {
+            filter: hue-rotate(120deg)
+        }
+
+        input:checked + label[data-value="true"] {
+            filter: hue-rotate(-50deg);
+        }
+
+        article footer {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        footer section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+
+            font-size: 1rem;
+        }
+
+        footer section h2 {
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <article>
+            <header>
+                <h1>
+                    Está esperando en una intersección para girar a la izquierda. ¿Qué debe hacer?
+                </h1>
+            </header>
+            <ol>
+                <li>
+                    <input hidden type="radio" name="answers" id="answers-1">
+                    <label for="answers-1" data-value="true">
+                        Encender la luz direccional y dejar las ruedas rectas.
+                    </label>
+                </li>
+                <li>
+                    <input hidden type="radio" name="answers" id="answers-2">
+                    <label for="answers-2" data-value="false">
+                        No sé.
+                    </label>
+                </li>
+                <li>
+                    <input hidden type="radio" name="answers" id="answers-3">
+                    <label for="answers-3" data-value="false">
+                        Tumbarse al suelo.
+                    </label>
+                </li>
+                <li>
+                    <input hidden type="radio" name="answers" id="answers-4">                    
+                    <label for="answers-4" data-value="false">
+                        ¿Qué es una intersección?
+                    </label>
+                </li>
+            </ol>
+            <footer>
+                <section>
+                    <h2>
+                        Aciertos:
+                    </h2>
+                    <span>
+                        0
+                    </span>
+                </section>
+                <section>
+                    <h2>
+                        Preguntas restantes:
+                    </h2>
+                    <span>
+                        20
+                    </span>
+                </section>
+            </footer>
+        </article>
+    </main>
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+    </script>
+</body>
+</html>

@@ -14,7 +14,7 @@
         }
     },
     {
-        "question" : "Está esperando en la intersección para dar la vuelta a la izquierda. ¿Qué debe hacer?",
+        "question" : "Está esperando en un intersección para girar a la izquierda. ¿Qué debe hacer?",
         "answers" : {
             "short" : "Encender la luz direccional y dejar las ruedas rectas.",
             "long" : "Usted siempre debe hacer una señal antes de cruzar o cambiar de carril. Debe mantener las llantas rectas mientras espera para cruzar a la izquierda. Esto garantiza que, si otro vehículo lo golpea desde atrás, usted no será empujado hacia los vehículos que circulan en sentido contrario."
